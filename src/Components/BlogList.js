@@ -33,7 +33,7 @@ const BlogList = () => {
   });
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
-  return sortPostsBy = (target) => {
+  const sortPostsBy = (target) => {
     return (a, b) => {
       if(a[target] > b[target])
         return 1;
