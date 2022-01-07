@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import api from '../Server-API-Connector/BlogServerAPI';
+import { v4 as uuid } from 'uuid';
 
 const BlogList = () => {
   const [posts, setPosts] = useState([]);
@@ -12,10 +13,7 @@ const BlogList = () => {
     const response = await api.get("/posts");
 
     // Verify data has been receieved.
-    if(response.data) {
-      for(let i = 0, length = response.data.length; i < length; i++)
-        console.log(`Here is it! ${response.data[i].id}`);
-    }else {
+    if(!response.data) {
       console.log("No data received.");
       return;
     }
@@ -23,14 +21,6 @@ const BlogList = () => {
     /** Sets our state to a sorted list of posts by title. */
     setPosts(response.data.sort(sortPostsBy("title")));
   };
-
-  const enumeratePosts = (posts).map((post) => {
-    return (
-      <div className="ui item">
-        <li>{post.title}</li>
-      </div>
-    );
-  });
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
   const sortPostsBy = (target) => {
@@ -44,15 +34,17 @@ const BlogList = () => {
     }
   }
 
+  const enumeratePosts = (posts).map((post) => {
+    return (
+      <div key={post.id} className="ui item">
+        <li>{post.title}</li>
+      </div>
+    );
+  });
+
   return (
     <div className="main container">
-      <button>Press me!</button>
       <h2>Newest posts</h2>
-      <ol className="ui celled list">
-        { enumeratePosts }
-      </ol>
-
-      <h2>Highest rated posts</h2>
       <ol className="ui celled list">
         { enumeratePosts }
       </ol>
