@@ -33,3 +33,7 @@ i.icon {
 .center-div {
   text-align: center;
 }
+
+.link:hover {
+  color: #000;
+}
