@@ -1,5 +1,5 @@
 # BlogIt
-![alt BlogIt](https://github.com/tobymac208/BlogIt/blob/main/src/images/BlogIt%20example.png?raw=true)
+![alt BlogIt](https://github.com/tobymac208/BlogIt/blob/main/src/Images/BlogIt%20example.png?raw=true)
 
 Showcase project for: <br />
     - Portfolio projects. <br />
