@@ -1,4 +1,6 @@
 # BlogIt
+[alt "BlogIt"]("/Images/BlogIt example.png")
+
 Showcase project for: <br />
     - Portfolio projects. <br />
     - Blog posts. These are all in regards to my journey as a developer, what helped me along the way, and other things I (and others) deem as "important enough" to post. Promises I may have to whether it's quality or not? No :( But I hope you do enjoy what's here! <br />
