@@ -37,3 +37,12 @@ i.icon {
 .link:hover {
   color: #000;
 }
+
+img {
+  max-width: 10%;
+  display: block;
+}
+
+i {
+  margin-left: 20px;
+}
