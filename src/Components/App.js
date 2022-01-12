@@ -8,7 +8,7 @@ import PostDetail from './PostDetail';
 
 function App() {
   return (
-    <div className="ui container">
+    <div className="ui">
       <Router>
         <Header />
           <Routes>
