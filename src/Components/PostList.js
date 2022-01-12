@@ -40,7 +40,7 @@ const BlogList = () => {
       <div key={post.id} className="ui item">
         <Link to={`/posts/${post.id}`}>
           <li>
-            <p>{post.title}</p>
+            <h3>{post.title}</h3>
             <p>{post.body}</p>
             <p>{`${post.rating}/10`}</p>
           </li>
@@ -54,7 +54,7 @@ const BlogList = () => {
       <div key={post.id} className="ui item">
         <Link to={`/posts/${post.id}`}>
           <li>
-            <p>{post.title}</p>
+            <h3>{post.title}</h3>
             <p>{post.body}</p>
             <p>{`${post.rating}/10`}</p>
           </li>
