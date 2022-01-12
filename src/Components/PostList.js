@@ -20,10 +20,8 @@ const BlogList = () => {
     }
 
     /** Sets our state to a sorted list of posts by title. */
-    setPosts(response.data.sort(sortPostsBy("date")).slice(0, 2));
-    setRatedPosts(
-      response.data.sort(sortPostsBy("rating")).reverse().slice(0, 2)
-    );
+    setPosts(response.data.sort(sortPostsBy("date")).slice(0, 3));
+    setRatedPosts(response.data.sort(sortPostsBy("rating")).reverse().slice(0, 3));
   };
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
@@ -37,7 +35,7 @@ const BlogList = () => {
 
   const enumeratePosts = posts.map((post) => {
     return (
-      <div key={post.id} className="ui item">
+      <div key={post.id} className="item">
         <Link to={`/posts/${post.id}`}>
           <li>
             <h3>{post.title}</h3>
@@ -64,22 +62,25 @@ const BlogList = () => {
   });
 
   return (
-    <div className="main container">
+    <div className="ui main">
+      <div class="ui inverted segment">
+        <div className="header">Recent Posts</div>
+        <div className="ui inverted relaxed divided list">
+          { enumeratePosts }
+        </div>
+      </div>
+      <div class="ui inverted segment">
+        <div className="header">Highest Rated Posts</div>
+        <div className="ui inverted relaxed divided list">
+          { enumerateRatedPosts }
+        </div>
+      </div>
+
       <div>
         <button className="ui button left">All Posts</button>
-        <button className="ui button right">
-          Add Post
-          <i className="icon plus"></i>
-        </button>
-      </div>
-      <div className="ui">
-        <h2>Newest posts</h2>
-        <ol className="ui celled list">{enumeratePosts}</ol>
-      </div>
-      <hr />
-      <div className="ui">
-        <h2>Highest Rated Posts</h2>
-        <ol className="ui celled list">{enumerateRatedPosts}</ol>
+        <Link to="/add">
+          <button className="ui button right primary"><i className="icon plus"></i></button>
+        </Link>
       </div>
     </div>
   );

@@ -10,23 +10,18 @@ button {
   background-color: #1A1A1D;
 }
 
-li {
-  color: #4E4E50;
-  border: 1px solid #C3073F;
-  border-radius: 10px;
-}
-
 li:hover {
   background-color: #9c9cb6;
-}
-
-li p {
-  margin: 10px;
 }
 
 .center {
   justify-content: center;
   padding: 10px;
+}
+
+.field {
+  display: block;
+  margin: 5px;
 }
 
 .ui.search .input {
@@ -60,6 +55,10 @@ i.icon {
   color: #000;
 }
 
+.label {
+  margin-right: 20px;
+}
+
 img {
   max-width: 10%;
   display: block;
@@ -67,4 +66,8 @@ img {
 
 i {
   margin-left: 20px;
+}
+
+textarea {
+  font-size: 12px;
 }
