@@ -16,6 +16,10 @@ li {
   border-radius: 10px;
 }
 
+li:hover {
+  background-color: #9c9cb6;
+}
+
 li p {
   margin: 10px;
 }

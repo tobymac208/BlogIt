@@ -20,9 +20,9 @@ const BlogList = () => {
     }
 
     /** Sets our state to a sorted list of posts by title. */
-    setPosts(response.data.sort(sortPostsBy("date")).slice(0, 5));
+    setPosts(response.data.sort(sortPostsBy("date")).slice(0, 2));
     setRatedPosts(
-      response.data.sort(sortPostsBy("rating")).reverse().slice(0, 5)
+      response.data.sort(sortPostsBy("rating")).reverse().slice(0, 2)
     );
   };
 
