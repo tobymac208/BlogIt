@@ -2,6 +2,24 @@
   margin-top: 5em;
 }
 
+.ui li {
+  margin-top: 15px;
+}
+
+button {
+  background-color: #1A1A1D;
+}
+
+li {
+  color: #4E4E50;
+  border: 1px solid #C3073F;
+  border-radius: 10px;
+}
+
+li p {
+  margin: 10px;
+}
+
 .center {
   justify-content: center;
   padding: 10px;

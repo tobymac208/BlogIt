@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import api from "../Server-API-Connector/BlogServerAPI";
+import { Link } from 'react-router-dom';
 
 const BlogList = () => {
   const [posts, setPosts] = useState([]);
@@ -20,7 +21,9 @@ const BlogList = () => {
 
     /** Sets our state to a sorted list of posts by title. */
     setPosts(response.data.sort(sortPostsBy("date")).slice(0, 5));
-    setRatedPosts(response.data.sort(sortPostsBy("rating")).slice(0, 5));
+    setRatedPosts(
+      response.data.sort(sortPostsBy("rating")).reverse().slice(0, 5)
+    );
   };
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
@@ -35,7 +38,13 @@ const BlogList = () => {
   const enumeratePosts = posts.map((post) => {
     return (
       <div key={post.id} className="ui item">
-        <li>{post.title}</li>
+        <Link to={`/posts/${post.id}`}>
+          <li>
+            <p>{post.title}</p>
+            <p>{post.body}</p>
+            <p>{`${post.rating}/10`}</p>
+          </li>
+        </Link>
       </div>
     );
   });
@@ -43,7 +52,13 @@ const BlogList = () => {
   const enumerateRatedPosts = ratedPosts.map((post) => {
     return (
       <div key={post.id} className="ui item">
-        <li>{post.title}</li>
+        <Link to={`/posts/${post.id}`}>
+          <li>
+            <p>{post.title}</p>
+            <p>{post.body}</p>
+            <p>{`${post.rating}/10`}</p>
+          </li>
+        </Link>
       </div>
     );
   });
@@ -51,8 +66,8 @@ const BlogList = () => {
   return (
     <div className="main container">
       <div>
-        <button className="ui button left blue">All Posts</button>
-        <button className="ui button right green">
+        <button className="ui button left">All Posts</button>
+        <button className="ui button right">
           Add Post
           <i className="icon plus"></i>
         </button>
