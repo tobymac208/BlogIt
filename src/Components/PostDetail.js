@@ -28,7 +28,7 @@ const PostDetail = (props) => {
 
       <div className="ui text container border">
         <div className="ui">
-          {tags}
+          <p>{tags}</p>
           <p>Rating: {post.rating}/10</p>
           <p>Date Written: {post.date}</p>
         </div>
