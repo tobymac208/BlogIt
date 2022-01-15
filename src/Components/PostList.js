@@ -40,7 +40,7 @@ const BlogList = () => {
       <div key={post.id} className="ui vertical stripe segment">
         <li>
           <h3 className="ui header">{post.title}</h3>
-          <p>{post.body.slice(0, 200)}...</p>
+          <p>{ post.body[0].slice(0, 250) }...</p>
           <p>{`${post.rating}/10`}</p>
           <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
             Read Post
@@ -55,7 +55,7 @@ const BlogList = () => {
       <div key={post.id} className="ui vertical stripe segment">
         <li>
           <h3 className="ui header">{post.title}</h3>
-          <p>{post.body.slice(0, 200)}...</p>
+          <p>{post.body[0].slice(0, 250)}...</p>
           <p>{`${post.rating}/10`}</p>
           <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
             Read Post

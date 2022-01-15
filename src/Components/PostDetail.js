@@ -13,13 +13,19 @@ const PostDetail = (props) => {
       );
   });
 
+  const paragraphs = post.body.map(paragraph => {
+    return (
+      <p>{paragraph}</p>
+    );
+  });
+
   return (
     <div>
       <div className="ui main text container">
         <h1 className="ui header">{post.title}</h1>
       </div>
       <div className="ui text container">
-          <p>{ post.body }</p>
+          { paragraphs }
       </div>
       <div className="ui text container">
           { tags } 
