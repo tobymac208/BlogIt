@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = (props) => {
   return (
-    <div className="ui inverted vertical center aligned segment">
+    <div className="ui inverted vertical masthead center aligned segment">
       <div className="ui container">
         <div className="ui large secondary inverted pointing menu">
           <a className="item" href="/">Home</a>
