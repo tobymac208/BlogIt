@@ -68,7 +68,7 @@
         "age restricted"
       ],
       "rating": 8,
-      "date": "2022-02-12"
+      "date": "2022-01-12"
     },
     {
       "id": "50d1d96b-f0c8-4a7b-b39c-2c16b73ac8dd",
@@ -235,8 +235,8 @@
         "test",
         "test"
       ],
-      "date": "2022-01-15",
-      "rating": 10
+      "rating": 10,
+      "date": "2022-01-15"
     }
   ]
 }

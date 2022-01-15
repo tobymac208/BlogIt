@@ -25,7 +25,7 @@ const AddPost = () => {
       const formattedDate = `${date.slice(0, 4)}-${date.slice(5, 7)}-${date.slice(8, 10)}`;
 
       // Add the new blog post.
-      api.post('/posts', { id: uuid(), title, body : [body], tags : tags.trim().split(' '), date: formattedDate, rating : 7 })
+      api.post('/posts', { id: uuid(), title, body : [body], tags : tags.trim().split(' '), rating : 7, date: formattedDate })
       .then((response) => {
           console.log(response);
       })
