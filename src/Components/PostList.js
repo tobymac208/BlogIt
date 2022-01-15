@@ -19,11 +19,11 @@ const BlogList = () => {
       return;
     }
 
+    const printThisManyPosts = 3;
+
     /** Sets our state to a sorted list of posts by title. */
-    // setPosts(response.data.slice(0, 3));
-    // setRatedPosts(response.data.slice(0, 3));
-    setPosts(response.data.sort(sortPostsBy("date")).slice(0, 3));
-    setRatedPosts(response.data.sort(sortPostsBy("rating")).reverse().slice(0, 3));
+    setPosts(response.data.sort(sortPostsBy("date")).slice(0, printThisManyPosts));
+    setRatedPosts(response.data.sort(sortPostsBy("rating")).reverse().slice(0, printThisManyPosts));
   };
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
