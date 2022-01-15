@@ -5,6 +5,14 @@ const PostDetail = (props) => {
   const location = useLocation();
   const { post } = location.state;
 
+  const tags = post.tags.map(tag =>{
+      return(
+          <div className="ui item">
+              <p><a href="">{tag}</a> <i className="icon tag" /></p>
+          </div>
+      );
+  });
+
   return (
     <div>
       <div className="ui main text container">
@@ -12,6 +20,9 @@ const PostDetail = (props) => {
       </div>
       <div className="ui text container">
           <p>{ post.body }</p>
+      </div>
+      <div className="ui text container">
+          { tags } 
       </div>
     </div>
   );
