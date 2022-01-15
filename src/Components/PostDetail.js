@@ -21,7 +21,7 @@ const PostDetail = (props) => {
 
   return (
     <div>
-      <div className="ui main text container">
+      <div className="ui main text container blog">
         <h1 className="ui header">{post.title}</h1>
         {paragraphs}
       </div>

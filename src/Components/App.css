@@ -158,3 +158,8 @@ textarea {
   padding: 10px;
   margin-top: 1em;
 }
+
+.blog {
+  font-family: Roboto, "Helvetica Neue"!important;
+  font-size: 150%!important;
+}
