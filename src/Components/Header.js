@@ -15,7 +15,7 @@ const Header = (props) => {
       </div>
       <div className="ui text container">
         <h1 className="ui inverted header">BlogIt</h1>
-        <h2>Where projects meet ideas.</h2>
+        <h2>Where porfolio and blog meet.</h2>
       </div>
     </div>
   );
