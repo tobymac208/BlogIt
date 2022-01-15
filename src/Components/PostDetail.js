@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import BlogServerAPI from '../Server-API-Connector/BlogServerAPI';
 import { useLocation } from "react-router-dom";
 
 const PostDetail = (props) => {
   const location = useLocation();
+
+  /** Query the JSON server for this post. */
   const { post } = location.state;
 
   const tags = post.tags.map((tag) => {

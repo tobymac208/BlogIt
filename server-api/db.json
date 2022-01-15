@@ -4,10 +4,13 @@
       "id": "44abd685-f066-4ef1-890c-e06d8092d2e9",
       "title": "Configuring system for gaming!",
       "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
+        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. Once that's complete, start Steam, fire up your favorite game, and see if it boots all right. You may experience some issues, and that's somewhat expected. So defer to ProtonDB (https://www.protondb.com), Lutris, and your distributions forum page for any questions! Good luck.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["gaming", "technology"],
+      "tags": [
+        "gaming",
+        "technology"
+      ],
       "rating": 10,
       "date": "2022-01-05"
     },
@@ -18,7 +21,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 7,
       "date": "2022-01-02"
     },
@@ -29,7 +35,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 7,
       "date": "2022-01-01"
     },
@@ -40,7 +49,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 8,
       "date": "2022-01-15"
     },
@@ -51,7 +63,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 8,
       "date": "2022-02-12"
     },
@@ -62,7 +77,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-02"
     },
@@ -73,7 +91,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-17"
     },
@@ -84,7 +105,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-16"
     },
@@ -95,7 +119,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-15"
     },
@@ -106,7 +133,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-14"
     },
@@ -117,7 +147,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-13"
     },
@@ -128,7 +161,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-12"
     },
@@ -139,7 +175,10 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 5,
       "date": "2022-01-11"
     },
@@ -150,9 +189,54 @@
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
         "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
       ],
-      "tags": ["funny", "age restricted"],
+      "tags": [
+        "funny",
+        "age restricted"
+      ],
       "rating": 9,
       "date": "2022-01-10"
+    },
+    {
+      "id": "f777b0eb-e8ba-462b-b2b8-79e5838fe64d",
+      "title": "title",
+      "body": [
+        "title"
+      ],
+      "tags": [
+        "title"
+      ],
+      "rating": 10,
+      "date": "2022-01-15"
+    },
+    {
+      "id": "8faa0022-7253-4342-bb6c-0cd143e8500e",
+      "title": "sample",
+      "body": [
+        "sample"
+      ],
+      "tags": [
+        "sample",
+        "sample",
+        "sample"
+      ],
+      "rating": 10,
+      "date": "2022-01-15"
+    },
+    {
+      "id": "bb022c61-1014-400b-935f-041fcf877084",
+      "title": "testettsttst aklsdasldjalskdjkasd",
+      "body": [
+        "tetsttststst"
+      ],
+      "tags": [
+        "test",
+        "test",
+        "test",
+        "test",
+        "test"
+      ],
+      "date": "2022-01-15",
+      "rating": 10
     }
   ]
 }
