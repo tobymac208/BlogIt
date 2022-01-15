@@ -37,42 +37,40 @@ const BlogList = () => {
 
   const enumeratePosts = posts.map((post) => {
     return (
-      <div key={post.id} className="item">
-        <Link to={`/posts/${post.id}`}>
+      <div key={post.id} className="ui vertical stripe segment">
           <li>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
             <p>{`${post.rating}/10`}</p>
           </li>
-        </Link>
       </div>
     );
   });
 
   const enumerateRatedPosts = ratedPosts.map((post) => {
     return (
-      <div key={post.id} className="ui item">
-        <Link to={`/posts/${post.id}`}>
+      <div key={post.id} className="ui vertical stripe segment">
           <li>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
             <p>{`${post.rating}/10`}</p>
           </li>
-        </Link>
       </div>
     );
   });
 
   return (
     <div className="ui main">
-      <div class="ui inverted segment">
+      <div class="ui">
         <div className="header">Recent Posts</div>
         <div className="ui inverted relaxed divided list">
           { enumeratePosts }
         </div>
       </div>
-      <div class="ui inverted segment">
-        <div className="header">Highest Rated Posts</div>
+      <div className="ui horizontal header divider">
+        <p>Highest Rated Posts</p>
+      </div>
+      <div class="ui">
         <div className="ui inverted relaxed divided list">
           { enumerateRatedPosts }
         </div>

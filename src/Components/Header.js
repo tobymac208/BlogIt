@@ -5,9 +5,8 @@ const Header = (props) => {
     <div className="ui inverted vertical masthead center aligned segment">
       <div className="ui container">
         <div className="ui large secondary inverted pointing menu">
-          <a className="active item">Home</a>
-          <a className="item">Work</a>
-          <a href="/add" className="item">Careers</a>
+          <a className="item" href="/">Home</a>
+          <a className="item">Projects</a>
           <div className="right item">
             <a className="ui inverted button">Log in</a>
             <a className="ui inverted button">Sign Up</a>
