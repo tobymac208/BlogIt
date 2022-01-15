@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import api from "../Server-API-Connector/BlogServerAPI";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const BlogList = () => {
   const [posts, setPosts] = useState([]);
@@ -20,8 +20,8 @@ const BlogList = () => {
     }
 
     /** Sets our state to a sorted list of posts by title. */
-    setPosts(response.data.slice(0,3));
-    setRatedPosts(response.data.slice(0,3));
+    setPosts(response.data.slice(0, 3));
+    setRatedPosts(response.data.slice(0, 3));
     // setPosts(response.data.sort(sortPostsBy("date")).slice(0, 3));
     // setRatedPosts(response.data.sort(sortPostsBy("rating")).reverse().slice(0, 3));
   };
@@ -38,11 +38,14 @@ const BlogList = () => {
   const enumeratePosts = posts.map((post) => {
     return (
       <div key={post.id} className="ui vertical stripe segment">
-          <li>
-            <h3>{post.title}</h3>
-            <p>{post.body}</p>
-            <p>{`${post.rating}/10`}</p>
-          </li>
+        <li>
+          <h3 className="ui header">{post.title}</h3>
+          <p>{post.body.slice(0, 200)}...</p>
+          <p>{`${post.rating}/10`}</p>
+          <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
+            Read Post
+          </Link>
+        </li>
       </div>
     );
   });
@@ -50,11 +53,14 @@ const BlogList = () => {
   const enumerateRatedPosts = ratedPosts.map((post) => {
     return (
       <div key={post.id} className="ui vertical stripe segment">
-          <li>
-            <h3>{post.title}</h3>
-            <p>{post.body}</p>
-            <p>{`${post.rating}/10`}</p>
-          </li>
+        <li>
+          <h3 className="ui header">{post.title}</h3>
+          <p>{post.body.slice(0, 200)}...</p>
+          <p>{`${post.rating}/10`}</p>
+          <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
+            Read Post
+          </Link>
+        </li>
       </div>
     );
   });
@@ -62,24 +68,23 @@ const BlogList = () => {
   return (
     <div className="ui main">
       <div class="ui">
-        <div className="header">Recent Posts</div>
-        <div className="ui inverted relaxed divided list">
-          { enumeratePosts }
-        </div>
+        <div className="ui inverted relaxed divided list">{enumeratePosts}</div>
       </div>
       <div className="ui horizontal header divider">
         <p>Highest Rated Posts</p>
       </div>
       <div class="ui">
         <div className="ui inverted relaxed divided list">
-          { enumerateRatedPosts }
+          {enumerateRatedPosts}
         </div>
       </div>
 
       <div>
         <button className="ui button left">All Posts</button>
         <Link to="/add">
-          <button className="ui button right primary"><i className="icon plus"></i></button>
+          <button className="ui button right primary">
+            <i className="icon plus"></i>
+          </button>
         </Link>
       </div>
     </div>
