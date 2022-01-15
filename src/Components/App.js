@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import PostList from "./PostList";
 import AddPost from "./AddPost";
 import PostDetail from './PostDetail';
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<PostList />} />
             <Route path="/detail/:id" element={<PostDetail />} />
             <Route path="/add" element={<AddPost />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         <Footer />
       </Router>
