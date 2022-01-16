@@ -22,8 +22,18 @@ const BlogList = () => {
     const printThisManyPosts = 3;
 
     /** Sets our state to a sorted list of posts by title. */
-    setPosts(response.data.sort(sortPostsBy("date")).reverse().slice(0, printThisManyPosts));
-    setRatedPosts(response.data.sort(sortPostsBy("rating")).reverse().slice(0, printThisManyPosts));
+    setPosts(
+      response.data
+        .sort(sortPostsBy("date"))
+        .reverse()
+        .slice(0, printThisManyPosts)
+    );
+    setRatedPosts(
+      response.data
+        .sort(sortPostsBy("rating"))
+        .reverse()
+        .slice(0, printThisManyPosts)
+    );
   };
 
   /** Compares two posts by a certain target. Title, body, rating, and tags.*/
@@ -40,9 +50,13 @@ const BlogList = () => {
       <div key={post.id} className="ui vertical stripe segment">
         <li>
           <h3 className="ui header">{post.title}</h3>
-          <p>{ post.body[0].slice(0, 250) }...</p>
+          <p>{post.body[0].slice(0, 250)}...</p>
           <p>{`${post.rating}/10`}</p>
-          <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
+          <Link
+            to={`/detail/${post.id}`}
+            className="ui large button primary"
+            state={{ post: post }}
+          >
             Read Post
           </Link>
         </li>
@@ -57,7 +71,11 @@ const BlogList = () => {
           <h3 className="ui header">{post.title}</h3>
           <p>{post.body[0].slice(0, 250)}...</p>
           <p>{`${post.rating}/10`}</p>
-          <Link to={`/detail/${post.id}`} className="ui large button primary" state={{ post: post }}>
+          <Link
+            to={`/detail/${post.id}`}
+            className="ui large button primary"
+            state={{ post: post }}
+          >
             Read Post
           </Link>
         </li>
@@ -66,7 +84,13 @@ const BlogList = () => {
   });
 
   return (
-    <div className="ui main">
+    <div className="ui">
+      <div className="ui inverted vertical masthead center aligned segment">
+        <div className="ui text container">
+          <h1 className="ui inverted header">BlogIt</h1>
+          <h2>Where porfolio and blog meet.</h2>
+        </div>
+      </div>
       <div class="ui">
         <div className="ui inverted relaxed divided list">{enumeratePosts}</div>
       </div>
