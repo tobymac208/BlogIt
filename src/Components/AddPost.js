@@ -11,6 +11,7 @@ const AddPost = () => {
 
   const createPost = (e) => {
       e.preventDefault();
+      const delimieterForParagraphs = "!-!";
 
       /** Attempt to create a new blog post with the given details.
        * Data: title, body, date, rating, tags
@@ -25,7 +26,7 @@ const AddPost = () => {
       const formattedDate = `${date.slice(0, 4)}-${date.slice(5, 7)}-${date.slice(8, 10)}`;
 
       // Add the new blog post.
-      api.post('/posts', { id: uuid(), title, body : [body], tags : tags.trim().split(' '), rating : 7, date: formattedDate })
+      api.post('/posts', { id: uuid(), title, body : body.trim().split(delimieterForParagraphs), tags : tags.trim().split(' '), rating : 7, date: formattedDate })
       .then((response) => {
           console.log(response);
       })

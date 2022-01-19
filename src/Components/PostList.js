@@ -74,7 +74,7 @@ const BlogList = () => {
           <Link
             to={`/detail/${post.id}`}
             className="ui large button primary"
-            state={{ post: post }}
+            state={{ post }}
           >
             Read Post
           </Link>
@@ -104,12 +104,12 @@ const BlogList = () => {
       </div>
 
       <div>
-        <button className="ui button left">All Posts</button>
-        <Link to="/add">
-          <button className="ui button right primary">
-            <i className="icon plus"></i>
-          </button>
-        </Link>
+        <a href="/posts" type="button" className="ui button left secondary">
+          All Posts
+        </a>
+        <a href="/add" className="ui button right secondary">
+          <i className="icon plus"></i>
+        </a>
       </div>
     </div>
   );

@@ -1,4 +1,61 @@
 {
+  "projects": [
+    {
+      "id": "b27d7f8f-966d-435d-ad84-c04ef329bd2f",
+      "title": "Configuring LAMP server",
+      "description": "Well, this is how I did it. I know it seems crazy. But I sure did it!",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "thumbnail": "https://secureanycloud.com/wp-content/uploads/sites/33/2016/05/lampserver1.png"
+    },
+    {
+      "id": "5142e653-774d-4218-bdf9-861eb850236c",
+      "title": "Configuring LAMP server",
+      "description": "Well, this is how I did it. I know it seems crazy. But I sure did it!",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "thumbnail": "https://secureanycloud.com/wp-content/uploads/sites/33/2016/05/lampserver1.png"
+    },
+    {
+      "id": "ef3c2dcd-fa9d-4b63-b5ed-516f6478e682",
+      "title": "Configuring LAMP server",
+      "description": "Well, this is how I did it. I know it seems crazy. But I sure did it!",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "thumbnail": "https://secureanycloud.com/wp-content/uploads/sites/33/2016/05/lampserver1.png"
+    },
+    {
+      "id": "21ab380a-d819-43d8-bcd4-47ac3443f946",
+      "title": "Configuring LAMP server",
+      "description": "Well, this is how I did it. I know it seems crazy. But I sure did it!",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "thumbnail": "https://secureanycloud.com/wp-content/uploads/sites/33/2016/05/lampserver1.png"
+    },
+    {
+      "id": "19faa5f7-9c45-42fc-966b-55aa417e335a",
+      "title": "Configuring LAMP server",
+      "description": "Well, this is how I did it. I know it seems crazy. But I sure did it!",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "thumbnail": "https://secureanycloud.com/wp-content/uploads/sites/33/2016/05/lampserver1.png"
+    }
+  ],
   "posts": [
     {
       "id": "44abd685-f066-4ef1-890c-e06d8092d2e9",
@@ -15,214 +72,6 @@
       "date": "2022-01-05"
     },
     {
-      "id": "7188a305-4040-4f63-9bca-fc721c9d4118",
-      "title": "Apple juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 7,
-      "date": "2022-01-02"
-    },
-    {
-      "id": "680d010a-4bdd-45b5-b80d-e27d9b8775ef",
-      "title": "Appl juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 7,
-      "date": "2022-01-01"
-    },
-    {
-      "id": "e0a92b94-d4c9-496b-bb40-5910367d7c19",
-      "title": "App juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 8,
-      "date": "2022-01-15"
-    },
-    {
-      "id": "097e4d2f-63b4-4d41-88e4-1ea9261c27eb",
-      "title": "Ap juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 8,
-      "date": "2022-01-12"
-    },
-    {
-      "id": "50d1d96b-f0c8-4a7b-b39c-2c16b73ac8dd",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-02"
-    },
-    {
-      "id": "9f730d77-68f0-444d-94bb-d89d506a2ff8",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-17"
-    },
-    {
-      "id": "57c676a9-0971-4970-aa06-58160fe72c28",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-16"
-    },
-    {
-      "id": "4c198b83-93e2-4f6b-b918-37cbde7eea19",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-15"
-    },
-    {
-      "id": "49794a6c-d684-4a0c-8690-b3483aa09aff",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-14"
-    },
-    {
-      "id": "7c439aff-a596-4825-8055-b514f7c3e675",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-13"
-    },
-    {
-      "id": "5892e526-8e6b-42f3-aaa9-81b38754ac7c",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-12"
-    },
-    {
-      "id": "e067c3c9-43a3-46f8-984e-1bbd6af6ebe9",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 5,
-      "date": "2022-01-11"
-    },
-    {
-      "id": "c7ca9d0c-4d11-4e50-8d42-a3ec178ee8a2",
-      "title": "A juice",
-      "body": [
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users.",
-        "Have you ever wanted to configure Manjaro for gaming? Well, fundamentally, it's basically already configured for this exact purpose. Verify that WINE, Proton, and your main GPU drivers are installed. After that, you're ready to play all the games you've ever wanted to, with some exceptions. The Manjaro team took Arch, added the basic necessities, changed a few things in the kernel, and mde it an easy experience for mid-to-advanced users."
-      ],
-      "tags": [
-        "funny",
-        "age restricted"
-      ],
-      "rating": 9,
-      "date": "2022-01-10"
-    },
-    {
-      "id": "f777b0eb-e8ba-462b-b2b8-79e5838fe64d",
-      "title": "title",
-      "body": [
-        "title"
-      ],
-      "tags": [
-        "title"
-      ],
-      "rating": 10,
-      "date": "2022-01-15"
-    },
-    {
-      "id": "8faa0022-7253-4342-bb6c-0cd143e8500e",
-      "title": "sample",
-      "body": [
-        "sample"
-      ],
-      "tags": [
-        "sample",
-        "sample",
-        "sample"
-      ],
-      "rating": 10,
-      "date": "2022-01-15"
-    },
-    {
       "id": "bb022c61-1014-400b-935f-041fcf877084",
       "title": "testettsttst aklsdasldjalskdjkasd",
       "body": [
@@ -237,6 +86,22 @@
       ],
       "rating": 10,
       "date": "2022-01-15"
+    },
+    {
+      "id": "e864aac4-c458-4e19-a513-60f3dfe34fd1",
+      "title": "Linux's Desktop Market Share Has Risen",
+      "body": [
+        "Note: I will be referring to GNU/Linux with distribution-related packages as \"Linux\" in this article. \n",
+        "\nLinux's market share has, surprisingly, risen within the last couple of years. If NetMarketShare it to be believed (https://tinyurl.com/marketsharelinuxcovid), the rise in Linux usage has drastically risen. ESOP reported that these statistics resulted in an all-time high for Linux distribution use, a staggering 3.6% high and a \"210%\" increase from where it original resided back in January of 2020. This means that from January to June of 2020 there was a 210% increase in usage (https://www.esop.pt/en/destaque/linux-market-share-grows-210-percent-5-months). Annually, we Linux users like to tout, \"This will be the year of Linux!\" But this proclamation is definitely not as \"arrogant\" or \"delusional\" as it once was.\n",
+        "\nFor more Linux related news, please stick around this blog. Thanks for reading!"
+      ],
+      "tags": [
+        "linux",
+        "market-trends",
+        "os-news"
+      ],
+      "rating": 10,
+      "date": "2022-01-17"
     }
   ]
 }

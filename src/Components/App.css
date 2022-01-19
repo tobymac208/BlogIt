@@ -140,11 +140,6 @@ i.icon {
   margin-right: 20px;
 }
 
-img {
-  max-width: 10%;
-  display: block;
-}
-
 i {
   margin-left: 20px;
 }
@@ -162,4 +157,13 @@ textarea {
 .blog {
   font-family: Roboto, "Helvetica Neue"!important;
   font-size: 150%!important;
+}
+
+.icon {
+  margin-left: 5px!important;
+  margin-right: 5px!important;
+}
+
+.page-login {
+  margin-top: 2em;
 }
