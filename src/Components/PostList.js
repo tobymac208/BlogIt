@@ -91,13 +91,13 @@ const BlogList = () => {
           <h2>Where porfolio and blog meet.</h2>
         </div>
       </div>
-      <div class="ui">
+      <div className="ui">
         <div className="ui inverted relaxed divided list">{enumeratePosts}</div>
       </div>
       <div className="ui horizontal header divider">
         <p>Highest Rated Posts</p>
       </div>
-      <div class="ui">
+      <div className="ui">
         <div className="ui inverted relaxed divided list">
           {enumerateRatedPosts}
         </div>

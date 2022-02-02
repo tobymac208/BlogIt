@@ -102,6 +102,20 @@
       ],
       "rating": 10,
       "date": "2022-01-17"
+    },
+    {
+      "id": "123a6fea-7d6e-403d-8cd7-01e07e87817d",
+      "title": "Technicians needed for organizations like Linus Tech Tips",
+      "body": [
+        "Organizations like LTT need real, certified technicians. Even technicians that require only meager pay and limited DLP knowledge. If the past is to be heeded, LTT could certainly avoid more server loss and downtime if they hired a semi-professional to help. Jake, one of their purported \"IT\" people, is very skilled. However, his automated tasking for verifying the integrity of their storage didn't catch the issue. On another note, his unsolicited audit of their storage did catch two main storage blocks that were failing. I do believe that if someone ran their own scripts/personal DLP (i.e., data loss prevention) checks then they wouldn't have been in this situation for a third time.\n",
+        "\nI hope all who read this, including those who don't, can avoid these unfortunate events."
+      ],
+      "tags": [
+        "IT",
+        "opinion"
+      ],
+      "rating": 7,
+      "date": "2022-02-02"
     }
   ]
 }
