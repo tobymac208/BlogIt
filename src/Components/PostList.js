@@ -3,7 +3,7 @@ import api from "../Server-API-Connector/BlogServerAPI";
 import { Link } from "react-router-dom";
 
 const BlogList = () => {
-  postDataJSON = [
+  const postDataJSON = [
     {
       "id": "44abd685-f066-4ef1-890c-e06d8092d2e9",
       "title": "Configuring system for gaming!",
