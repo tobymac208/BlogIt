@@ -108,7 +108,7 @@ const BlogList = () => {
     };
   };
 
-  const enumeratePosts = posts.map((post) => {
+  const enumeratePosts = postDataJSON.map((post) => {
     return (
       <div key={post.id} className="ui vertical stripe segment">
         <li>
