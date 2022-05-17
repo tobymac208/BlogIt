@@ -16,7 +16,7 @@ const About = () => {
           <div className="description">
               Email: <a href="mailto:niklasfernandez97@gmail.com">niklasfernandez97@gmail.com</a>
           </div>
-          <div className="description">Phone #: number</div>
+          <div className="description">Phone #: 555-123-1234</div>
         </div>
       </div>
     </div>
