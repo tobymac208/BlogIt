@@ -5,9 +5,15 @@ const ProjectDetail = () => {
   const location = useLocation();
   const { project } = location.state;
 
-  /** Just like in PostDetail, this simply separates each lsit item into a separate paragraph. */
+  /** Just like in PostDetail, this simply separates each list item into a separate paragraph. */
   const paragraphs = project.body.map((paragraph) => {
       return <p>{paragraph}</p>;
+  });
+
+  // Separate each image into an inline block and display it.
+  const gallery = project.gallery.map((image) => {
+    // Enumerate through the 'gallery' object and grab the hyperlinks for the project images.
+    return <img src={ image } alt="image of the project" />
   });
 
   return (
@@ -21,6 +27,9 @@ const ProjectDetail = () => {
           <img src={project.thumbnail} alt="project image" />
           <h1 className="ui header">{project.title}</h1>
           <p>{paragraphs}</p>
+          <div className="gallery">
+            { gallery }
+          </div>
         </div>
       </div>
     </div>

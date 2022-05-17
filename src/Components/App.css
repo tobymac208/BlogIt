@@ -167,3 +167,8 @@ textarea {
 .page-login {
   margin-top: 2em;
 }
+
+.gallery img {
+  max-width: 180px;
+  max-height: 120px;
+}
